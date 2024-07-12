@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-----CODE-BY-ALVINJOBY----->
+    <!----follow-me-on-github:(ID) AlvinJoby------->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+    <title>TIME</title>
+    <!-----CODE-BY-ALVINJOBY----->
+    <!----follow-me-on-github:(ID) AlvinJoby------->
+</head>
+<body>
+    <!-----CODE-BY-ALVINJOBY----->
+    <!----follow-me-on-github:(ID) AlvinJoby------->
+    <div class="tab-container">
+        <header id="tabButtons">
+            <button id="clock" class="tab-button active" data-tab="clockTab" onclick="clock()">Clock</button>
+            <button id="stopwatch" class="tab-button" data-tab="stopwatchTab">Stopwatch</button>
+            <button id="timer" class="tab-button" data-tab="timerTab">Timer</button>
+        </header>
+    </div>
+    <!-----CODE-BY-ALVINJOBY----->
+    <!----follow-me-on-github:(ID) AlvinJoby------->
+    <div id="tabContent">
+        <div id="clockTab" class="tab active">
+            <span id="clockTime">00:00:00</span>
+            <span id="amorpm">am</span>
+        </div>
+
+        <div id="stopwatchTab" class="tab">
+            <div id="stopwatchDisplay">
+                00:00:00:00
+            </div>
+            <div id="stopwatchBtns">
+            <button id="mainStopwatchBtn" class="stopwatchBTns" onclick="startStopwatch()">Start</button>
+            <button id="resetStopwatchBtn" class="stopwatchBTns" onclick="resetStopwatch()">Reset</button>
+            </div>
+        </div>
+        <!-----CODE-BY-ALVINJOBY----->
+    <!----follow-me-on-github:(ID) AlvinJoby------->
+        <div id="timerTab" class="tab">
+            <div id="inputDivTimerTab">
+                <input type="number" id="hours" value="00" class="timerInput" min="0" max="60">:
+                <input type="number" id="minutesTimer" value="00" class="timerInput" min="0" max="60">:
+                <input type="number" id="secondsTimer" value="00" class="timerInput" min="0" max="60">
+            </div>
+            <div id="timerRealDisplay" style="display: none;">00:00:00</div>
+            <div id="timerTabBtnContainer">
+                <audio id="timerEndSound" src="music.mp3" preload="auto" style="display: none;"></audio>
+                <div id="playButton"><button id="startTimerBtn" onclick="startTimer()"><img src="playPNG.png" alt="play"></button></div>
+                <div id="pauseButton" style="display: none;"><button id="startTimerBtn" onclick="pauseTimer()"><img src="pausePNG.png" alt="pause"></button></div>
+                <button id="resetTimerBtn" onclick="resetTimer()"><img src="resetPNG.png" alt="reset"></button>
+            </div>
+        </div>
+    </div>
+    <!-----CODE-BY-ALVINJOBY----->
+    <!----follow-me-on-github:(ID) AlvinJoby------->
+    <script src="script.js"></script>
+</body>
+</html>
+<!-----CODE-BY-ALVINJOBY----->
+    <!----follow-me-on-github:(ID) AlvinJoby------->
