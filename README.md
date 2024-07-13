@@ -2,6 +2,8 @@
 
 TimeHUB, developed by **Alvin Joby** and **Joseph Joseph**, is a sophisticated clock page featuring a timer, stopwatch, and more. Utilizing advanced HTML, CSS, and JavaScript, TimeHUB ensures a seamless user experience, precision, and functionality in time management.
 
+![screen shot](.github/clock.png)
+
 ## Features
 
 - **Clock**: Displays the current time.
