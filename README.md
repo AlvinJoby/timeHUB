@@ -33,7 +33,7 @@ To run this project locally:
 
 - **Clock**: Automatically displays the current time.
 - **Timer**: Input desired countdown time and start.
-- **Stopwatch**: Click to start, stop, and reset the stopwatch; use the lap feature to record times.
+- **Stopwatch**: Click to start and reset the stopwatch.
 
 
 ## License
