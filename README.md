@@ -1,5 +1,6 @@
 # TimeHUB 🕗 [Live Demo](https://alvinjoby.github.io/timeHUB/)
-![GitHub repo size](https://img.shields.io/github/repo-size/AlvinJoby/timeHUB?style=plastic&logo=github&logoSize=2&color=green&link=https%3A%2F%2Fgithub.com%2FAlvinJoby%2FtimeHUB%2Farchive%2Frefs%2Fheads%2Fmain.zip)
+![GitHub repo size](https://img.shields.io/github/repo-size/AlvinJoby/timeHUB?style=plastic&logo=github&logoSize=2&color=green&link=https%3A%2F%2Fgithub.com%2FAlvinJoby%2FtimeHUB%2Farchive%2Frefs%2Fheads%2Fmain.zip)         ![Website](https://img.shields.io/website?url=https%3A%2F%2Falvinjoby.github.io%2FtimeHUB%2F&up_message=up%20now&up_color=green&down_message=down%20now&down_color=red&style=plastic)
+
 
 TimeHUB, developed by **Alvin Joby** and **Joseph Joseph**, is a sophisticated clock page featuring a timer, stopwatch, and more. Utilizing advanced HTML, CSS, and JavaScript, TimeHUB ensures a seamless user experience, precision, and functionality in time management.
 
